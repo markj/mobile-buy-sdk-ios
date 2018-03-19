@@ -31,6 +31,7 @@
 + (NSDateFormatter*)dateFormatterForShippingRates
 {
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
 	dateFormatter.dateFormat = @"yyyy-MM-dd'T'HH:mm:ss.SSSZ";
 	return dateFormatter;
 }
@@ -38,6 +39,7 @@
 + (NSDateFormatter*)dateFormatterForPublications
 {
 	NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+	[dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"]];
 	dateFormatter.dateFormat = @"yyyy-MM-dd'T'HH:mm:ssZ";
 	return dateFormatter;
 }
