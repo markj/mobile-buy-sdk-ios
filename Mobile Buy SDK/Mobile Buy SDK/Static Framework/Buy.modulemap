@@ -24,7 +24,7 @@
 //  THE SOFTWARE.
 //
 
-framework module Buy {
+framework module BuyV2 {
   umbrella header "Buy.h"
 
   export *
