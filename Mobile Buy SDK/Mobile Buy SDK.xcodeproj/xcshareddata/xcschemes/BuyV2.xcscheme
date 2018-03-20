@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "901930E11BC5B9BC00D1134E"
-               BuildableName = "Buy.framework"
-               BlueprintName = "Buy"
+               BuildableName = "BuyV2.framework"
+               BlueprintName = "BuyV2"
                ReferencedContainer = "container:Mobile Buy SDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -43,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "901930E11BC5B9BC00D1134E"
-            BuildableName = "Buy.framework"
-            BlueprintName = "Buy"
+            BuildableName = "BuyV2.framework"
+            BlueprintName = "BuyV2"
             ReferencedContainer = "container:Mobile Buy SDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,6 +56,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -65,8 +67,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "901930E11BC5B9BC00D1134E"
-            BuildableName = "Buy.framework"
-            BlueprintName = "Buy"
+            BuildableName = "BuyV2.framework"
+            BlueprintName = "BuyV2"
             ReferencedContainer = "container:Mobile Buy SDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -83,8 +85,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "901930E11BC5B9BC00D1134E"
-            BuildableName = "Buy.framework"
-            BlueprintName = "Buy"
+            BuildableName = "BuyV2.framework"
+            BlueprintName = "BuyV2"
             ReferencedContainer = "container:Mobile Buy SDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

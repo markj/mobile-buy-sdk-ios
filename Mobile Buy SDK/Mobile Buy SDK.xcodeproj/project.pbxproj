@@ -432,7 +432,7 @@
 		B8A357631DD6278300FDD7BD /* BUYOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A585C041CE6440B001F20F0 /* BUYOperation.h */; };
 		B8A357641DD6278B00FDD7BD /* BUYFlatCollectionTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 849810901CB7E07900CFAB58 /* BUYFlatCollectionTransformer.h */; };
 		B8A357651DD6515D00FDD7BD /* Buy.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DA8DF11BC6A82D0027BCB7 /* Buy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8A797511DD9FC9200476E5B /* Buy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901931701BC5B9BC00D1134E /* Buy.framework */; };
+		B8A797511DD9FC9200476E5B /* BuyV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901931701BC5B9BC00D1134E /* BuyV2.framework */; };
 		B8CB195C1DF84E0E009C0FB3 /* BUYClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FDA17119C93F6F00AF4E93 /* BUYClient.m */; };
 		B8CB195D1DF84E0E009C0FB3 /* BUYClient+Routing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B0C651CEA703E0037D68F /* BUYClient+Routing.m */; };
 		B8CB195E1DF84E0E009C0FB3 /* BUYClient+Storefront.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B0C6B1CEB4D300037D68F /* BUYClient+Storefront.m */; };
@@ -776,7 +776,7 @@
 		84E61D161D81FEC90091B4A6 /* test_shop_config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test_shop_config.json; sourceTree = "<group>"; };
 		900396991B601DF400226B73 /* BUYCartLineItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUYCartLineItem.h; sourceTree = "<group>"; };
 		9003969A1B601DF400226B73 /* BUYCartLineItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUYCartLineItem.m; sourceTree = "<group>"; };
-		901931701BC5B9BC00D1134E /* Buy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Buy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		901931701BC5B9BC00D1134E /* BuyV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BuyV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		901931761BC5BC9100D1134E /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		9032F2D81BE9457A00BB9EEF /* BUYCheckoutAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BUYCheckoutAttribute.h; sourceTree = "<group>"; };
 		9032F2D91BE9457A00BB9EEF /* BUYCheckoutAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BUYCheckoutAttribute.m; sourceTree = "<group>"; };
@@ -906,7 +906,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A797511DD9FC9200476E5B /* Buy.framework in Frameworks */,
+				B8A797511DD9FC9200476E5B /* BuyV2.framework in Frameworks */,
 				90DAEC381BC6E736007555A5 /* libc++.tbd in Frameworks */,
 				90C27AAF1BB2E8F3008AF7A4 /* libOHHTTPStubs.a in Frameworks */,
 			);
@@ -1324,7 +1324,7 @@
 			isa = PBXGroup;
 			children = (
 				90F592EC1B0D5EFE0026B382 /* Mobile Buy SDK Tests.xctest */,
-				901931701BC5B9BC00D1134E /* Buy.framework */,
+				901931701BC5B9BC00D1134E /* BuyV2.framework */,
 				B8A356991DD6112C00FDD7BD /* Buy.framework */,
 				B8BB14501DF1E2EE00F45BBB /* Buy.framework */,
 			);
@@ -1739,9 +1739,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		901930E11BC5B9BC00D1134E /* Buy */ = {
+		901930E11BC5B9BC00D1134E /* BuyV2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9019316D1BC5B9BC00D1134E /* Build configuration list for PBXNativeTarget "Buy" */;
+			buildConfigurationList = 9019316D1BC5B9BC00D1134E /* Build configuration list for PBXNativeTarget "BuyV2" */;
 			buildPhases = (
 				84D915531CC03FB800D334FB /* Generate Models */,
 				901930E21BC5B9BC00D1134E /* Sources */,
@@ -1753,9 +1753,9 @@
 			);
 			dependencies = (
 			);
-			name = Buy;
+			name = BuyV2;
 			productName = Buy;
-			productReference = 901931701BC5B9BC00D1134E /* Buy.framework */;
+			productReference = 901931701BC5B9BC00D1134E /* BuyV2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		90F592EB1B0D5EFE0026B382 /* Mobile Buy SDK Tests */ = {
@@ -1854,7 +1854,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				901930E11BC5B9BC00D1134E /* Buy */,
+				901930E11BC5B9BC00D1134E /* BuyV2 */,
 				90F592EB1B0D5EFE0026B382 /* Mobile Buy SDK Tests */,
 				904FB61A1AE03DC500EA1758 /* Static Universal Framework */,
 				90E80E401AFAB0B9003A9909 /* Documentation */,
@@ -2274,12 +2274,12 @@
 /* Begin PBXTargetDependency section */
 		9032F2D71BE93F3D00BB9EEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 901930E11BC5B9BC00D1134E /* Buy */;
+			target = 901930E11BC5B9BC00D1134E /* BuyV2 */;
 			targetProxy = 9032F2D61BE93F3D00BB9EEF /* PBXContainerItemProxy */;
 		};
 		90E78A4D1BD58F0C005D16C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 901930E11BC5B9BC00D1134E /* Buy */;
+			target = 901930E11BC5B9BC00D1134E /* BuyV2 */;
 			targetProxy = 90E78A4C1BD58F0C005D16C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -3026,7 +3026,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9019316D1BC5B9BC00D1134E /* Build configuration list for PBXNativeTarget "Buy" */ = {
+		9019316D1BC5B9BC00D1134E /* Build configuration list for PBXNativeTarget "BuyV2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9019316E1BC5B9BC00D1134E /* Debug */,
