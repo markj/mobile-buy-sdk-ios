@@ -63,6 +63,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong, nonnull) NSOperationQueue *callbackQueue;
 
+@property (nonatomic, readonly, nonnull) NSURLSession *session;
+
 /**
  *  The page size for any paged request. This can range from 1-250.  Default is 25
  */
